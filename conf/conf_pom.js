@@ -2,6 +2,8 @@
 exports.config = {
   directConnect: true,
 
+  baseUrl: 'http://juliemr.github.io/protractor-demo/',
+
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
     'browserName': 'firefox'

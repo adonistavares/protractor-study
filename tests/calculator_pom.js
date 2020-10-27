@@ -3,7 +3,7 @@ var homepage = require('../pages/homepage');
 
 describe('demo calculator test with POM', function(){
     it('addition test', function() {
-        homepage.get('http://juliemr.github.io/protractor-demo/');
+        homepage.get();
 
         homepage.setFirstNumber('2');
         homepage.setSecondNumber('5');

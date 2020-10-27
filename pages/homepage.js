@@ -5,8 +5,8 @@ var HomePage = function() {
     var btnCalculate = element(by.id('gobutton'));
     var result = element(by.binding('latest'));
 
-    this.get = function(baseUrl) {
-        browser.get(baseUrl);
+    this.get = function() {
+        browser.get(browser.baseUrl);
     };
 
     this.setFirstNumber = function(number) {
